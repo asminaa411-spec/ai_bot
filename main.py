@@ -33,7 +33,7 @@ def classify_image(image_path):
 
 
 def main():
-    image_file = input("Введите имя файла картинки (например, cat.jpg): ")
+    image_file = input("Введите имя файла  (например, cat.jpg): ")
     
     if image_file:
         result = classify_image(image_file)
